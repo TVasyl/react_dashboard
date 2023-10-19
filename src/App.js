@@ -6,6 +6,7 @@ import { DashboardLayout } from "./layouts/dashboard/DashboardLayout";
 import { Logup } from "./components/logup/Logup";
 import { Login } from "./components/login/Login";
 import { Dashboard } from "./containers/dashboard/Dashboard";
+import {CounterData} from "./containers/counterData/CounterData"
 import { Error } from "./components/error/Error";
 
 export const App = () => {
@@ -17,6 +18,7 @@ export const App = () => {
       </Route>
       <Route path="/" element={<DashboardLayout />}>
         <Route index element={ <Dashboard/> } />
+        <Route path="counterdata" element={ <CounterData/> } />
       </Route>
       <Route path="*" element={<Error/>}/>
     </Routes>
