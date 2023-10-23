@@ -42,7 +42,7 @@ export const Sidebar = () => {
                     <span className="text-xl">
                         <HiOutlineLogout />
                     </span>
-                    Logout
+                    LogOut
                 </button>
             </ul>
         </div>
