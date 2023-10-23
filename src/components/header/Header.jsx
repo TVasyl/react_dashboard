@@ -28,12 +28,14 @@ export const Header = () => {
                 >
                     <HiOutlineChatAlt fontSize={24} />
                 </IconButton>
-                <IconButton
-                    title={"Notification"}
-                >
+                <IconButton title={"Notification"}>
                     <HiOutlineBell fontSize={24} />
                 </IconButton>
-                <UserMenu />
+                <UserMenu
+                    image={
+                        "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=996&t=st=1698060720~exp=1698061320~hmac=994ea5e1dba8040626e6aae134d9fc353925415c9d52d7b3d0ace932b935944e"
+                    }
+                />
             </div>
         </div>
     );
