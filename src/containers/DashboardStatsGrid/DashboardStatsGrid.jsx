@@ -17,7 +17,7 @@ export const DashboardStatsGrid = () => {
               title={"Total Expenses"}
               currency={"$"}
               amount={25687.6}
-              profit={"+542"}
+              profit={"-542"}
           />
           <StatisticBox
               iconColor={"bg-yellow-500"}

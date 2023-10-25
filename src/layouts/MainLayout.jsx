@@ -1,10 +1,10 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
-import { Sidebar } from "../../components/Sidebar/Sidebar";
-import { Header } from "../../components/Header/Header";
+import { Sidebar } from "../components/Sidebar/Sidebar";
+import { Header } from "../components/Header/Header";
 
-export const DashboardLayout = () => {
+export const MainLayout = () => {
     return (
         <div className="flex flex-row bg-neutral-100 h-screen w-screen overflow-hidden">
             <Sidebar />

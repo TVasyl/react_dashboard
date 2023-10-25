@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
 
 import data from './data.json'
 
@@ -34,12 +34,12 @@ export const TransactionChart = () => {
                         <Tooltip />
                         <Legend />
                         <Bar
-                            dataKey={"Income"}
-                            fill="#0ea5e9"
-                        />
-                        <Bar
                             dataKey={"Expense"}
                             fill="#ea580c"
+                        />
+                        <Bar
+                            dataKey={"Income"}
+                            fill="#0ea5e9"
                         />
                     </BarChart>
                 {/* </ResponsiveContainer> */}

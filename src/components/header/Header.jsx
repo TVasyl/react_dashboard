@@ -24,7 +24,7 @@ export const Header = () => {
             <div className="flex items-center gap-2 mr-2">
                 <IconButton
                     title={"Message"}
-                    newMsg={100}
+                    newMsg={25}
                 >
                     <HiOutlineChatAlt fontSize={24} />
                 </IconButton>
