@@ -6,27 +6,27 @@ export const DashboardStatsGrid = () => {
   return (
       <div className="flex gap-4 w-full">
           <StatisticBox
-              iconColor={"sky"}
+              iconColor={"bg-sky-500"}
               title={"Total Sales"}
               currency={"$"}
               amount={34525.6}
               profit={"+234"}
           />
           <StatisticBox
-              iconColor={"red"}
+              iconColor={"bg-red-500"}
               title={"Total Expenses"}
               currency={"$"}
               amount={25687.6}
               profit={"+542"}
           />
           <StatisticBox
-              iconColor={"yellow"}
+              iconColor={"bg-yellow-500"}
               title={"Total Customers"}
               amount={245}
               profit={"-1"}
           />
           <StatisticBox
-              iconColor={"green"}
+              iconColor={"bg-green-500"}
               title={"Total Orders"}
               amount={1457}
               profit={"+34"}

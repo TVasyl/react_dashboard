@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import React from "react";
 
 import { IoBagHandle } from "react-icons/io5";
@@ -9,10 +10,14 @@ export const StatisticBox = ({
     amount = 0,
     profit = "",
 }) => {
+
     return (
         <div className="bg-white rounded-sm p-4 flex-1 border border-gray-200 flex items-center gap-4">
             <div
-                className={`rounded-full h-12 w-12 flex items-center justify-center bg-${iconColor}-500`}
+                className={classNames(
+                    iconColor,
+                    "rounded-full h-12 w-12 flex items-center justify-center"
+                )}
             >
                 <IoBagHandle className="text-2xl text-white" />
             </div>
@@ -25,7 +30,7 @@ export const StatisticBox = ({
                         {`${currency}${amount}`}
                     </strong>
                     <span
-                        className={`text-sl text-${profit[0] === "-" ? "red" : "green"}-500 pl-2`}
+                        className={classNames("text-sl pl-2", profit[0] === "-" ? "text-red-500" : "text-green-500")}
                     >
                         {profit}
                     </span>
