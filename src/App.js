@@ -3,11 +3,11 @@ import { Routes, Route } from "react-router-dom";
 
 import { AuthenticationLayout } from "./layouts/authentication/AuthenticationLayout";
 import { DashboardLayout } from "./layouts/dashboard/DashboardLayout";
-import { Logup } from "./components/logup/Logup";
-import { Login } from "./components/login/Login";
-import { Dashboard } from "./containers/dashboard/Dashboard";
-import {CounterData} from "./containers/counterData/CounterData"
-import { Error } from "./components/error/Error";
+import { Logup } from "./components/Logup/Logup";
+import { Login } from "./components/Login/Login";
+import { Dashboard } from "./pages/Dashboard/Dashboard";
+import { CounterData } from "./pages/CounterData/CounterData";
+import { Error } from "./pages/Error/Error";
 
 export const App = () => {
   return (
