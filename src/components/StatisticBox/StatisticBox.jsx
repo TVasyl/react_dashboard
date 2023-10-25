@@ -2,7 +2,13 @@ import React from "react";
 
 import { IoBagHandle } from "react-icons/io5";
 
-export const StatisticBox = ({ iconColor = "sky", title = '', currency = '', amount = 0, profit = '' }) => {
+export const StatisticBox = ({
+    iconColor = "sky",
+    title = "",
+    currency = "",
+    amount = 0,
+    profit = "",
+}) => {
     return (
         <div className="bg-white rounded-sm p-4 flex-1 border border-gray-200 flex items-center gap-4">
             <div
@@ -19,9 +25,7 @@ export const StatisticBox = ({ iconColor = "sky", title = '', currency = '', amo
                         {`${currency}${amount}`}
                     </strong>
                     <span
-                        className={`text-sl text-${
-                            profit[0] == "-" ? "red" : "green"
-                        }-500 pl-2`}
+                        className={`text-sl text-${profit[0] === "-" ? "red" : "green"}-500 pl-2`}
                     >
                         {profit}
                     </span>

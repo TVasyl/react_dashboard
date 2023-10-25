@@ -1,0 +1,74 @@
+[
+    {
+        "name" : "Jan",
+        "Expense" : "4200",
+        "Income" : "2400"
+
+    },
+    {
+        "name" : "Fab",
+        "Expense" : "3000",
+        "Income" : "1245"
+
+    },
+    {
+        "name" : "Mar",
+        "Expense" : "5000",
+        "Income" : "7800"
+
+    },
+    {
+        "name" : "Apr",
+        "Expense" : "3600",
+        "Income" : "5400"
+
+    },
+    {
+        "name" : "May",
+        "Expense" : "2500",
+        "Income" : "4800"
+
+    },
+    {
+        "name" : "Jun",
+        "Expense" : "4200",
+        "Income" : "5200"
+
+    },
+    {
+        "name" : "Jul",
+        "Expense" : "3875",
+        "Income" : "4500"
+
+    },
+    {
+        "name" : "Aug",
+        "Expense" : "4450",
+        "Income" : "2650"
+
+    },
+    {
+        "name" : "Sep",
+        "Expense" : "3400",
+        "Income" : "6500"
+
+    },
+    {
+        "name" : "Oct",
+        "Expense" : "5870",
+        "Income" : "6540"
+
+    },
+    {
+        "name" : "Nov",
+        "Expense" : "3620",
+        "Income" : "3500"
+
+    },
+    {
+        "name" : "Dec",
+        "Expense" : "6520",
+        "Income" : "8560"
+
+    }
+]

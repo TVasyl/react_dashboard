@@ -1,6 +1,5 @@
 import React from 'react'
 
-import {IoBagHandle} from 'react-icons/io5'
 import { StatisticBox } from '../../components/StatisticBox/StatisticBox';
 
 export const DashboardStatsGrid = () => {

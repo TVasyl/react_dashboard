@@ -25,6 +25,7 @@ export const UserMenu = ({ image }) => {
                     <img
                         src={image}
                         className="h-full object-cover active:scale-90 cursor-pointer"
+                        alt="User"
                     />
                 )}
 
