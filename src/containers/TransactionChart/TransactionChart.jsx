@@ -13,7 +13,7 @@ export const TransactionChart = () => {
                 <ResponsiveContainer
                     width="100%"
                     height="100%"
-                    initialDimension={{ width: 600, height: 400 }}
+                    initialDimension={{ width: 600, height: 300 }}
                 >
                     <BarChart                        
                         data={data}
