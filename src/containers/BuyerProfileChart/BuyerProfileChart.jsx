@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 import data from "./data.json";
 
@@ -34,6 +34,9 @@ const renderCustomizedLabel = ({
 };
 
 export const BuyerProfileChart = () => {
+    const [bayerData, setBuyerData] = useState(data);
+
+
     return (
         <div className="w-[20rem] h-[22rem] bg-white p-4 rounded-sm border border-gray-200 flex flex-col">
             <strong className="text-gray-700 font-medium">Buyer Profile</strong>
@@ -47,7 +50,7 @@ export const BuyerProfileChart = () => {
                         height={300}
                     >
                         <Pie
-                            data={data}
+                            data={bayerData}
                             cx="50%"
                             cy="45%"
                             labelLine={false}
@@ -56,7 +59,8 @@ export const BuyerProfileChart = () => {
                             fill="#8884d8"
                             dataKey="value"
                         >
-                            {data.map((entry, index) => (
+                            {/* TODO: If no data, block have to write some information about*/}
+                            {bayerData && bayerData.map((entry, index) => (
                                 <Cell
                                     key={`cell-${index}`}
                                     fill={COLORS[index % COLORS.length]}
